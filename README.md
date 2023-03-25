@@ -1,2 +1,2 @@
-# Face_Detection -> Switch_toggle_using_openCV
+# Face Detection -> Switch Toggle using openCV
 A team Project for InnovationProjectLeague for college
