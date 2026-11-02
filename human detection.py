@@ -53,7 +53,7 @@ while True:
     cv2.imshow('frame', frame)
 
     # Exit the loop if the 'q' key is pressed
-    if cv2.waitKey(1) & 0xFF == ord('7'):
+    if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 # Release the webcam and close all windows

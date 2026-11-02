@@ -1,4 +1,3 @@
-from turtle import delay
 import cv2
 import numpy as np
 
