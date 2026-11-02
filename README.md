@@ -25,16 +25,22 @@ Three variants, same core detection loop:
 
 ## 🚀 Getting Started
 
-One command sets up an isolated environment with [uv](https://docs.astral.sh/uv/):
+One command — nothing to pre-clone, it clones itself:
 
 ```bash
-./setup.sh
+curl -fsSL https://raw.githubusercontent.com/pranava-mk/Switch_toggle_using_openCV/main/install.sh | bash
 ```
+
+This checks for `git`/`python3`/`pip` (offering an OS-appropriate install via
+apt/pacman/brew if missing, always asking before touching the system),
+clones the repo if you're not already in it, creates a `.venv`, installs the
+pinned `requirements.txt`, then prints the exact commands to run. It will
+**not** auto-launch any detection script — see "Usage" below; you need a
+real webcam attached.
 
 ### Requirements
 
-- Python 3.11
-- [uv](https://docs.astral.sh/uv/)
+- Python 3.11+
 - A webcam
 
 ### ⚠️ OpenCV version is pinned on purpose
